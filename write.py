@@ -9,8 +9,8 @@ from ..helpers.utils import edit_delete
 plugin_category = "extra"
     
 @catub.cat_cmd(
-    pattern="write(?:\s|$)([\s\S]*)",
-    command=("write", plugin_category),
+    pattern="iwrite(?:\s|$)([\s\S]*)",
+    command=("iwrite", plugin_category),
     info={
         "header": "To write given text on paper.",
         "usage": "{tr}write <message/reply>",
